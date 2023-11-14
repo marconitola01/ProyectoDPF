@@ -30,7 +30,33 @@
             <div id="warning">
                 <h2>No se pudo generar imagen</h2>
             </div>
+
+           <ul id="datos-lista"></ul>
+
         </div>
+
+        <script>
+            // Realiza una solicitud al backend para obtener el JSON
+            fetch('../controllers/openAiController.js')
+              .then(response => response.json())
+              .then(jsonData => {
+                // Accede al elemento UL en el DOM
+                var lista = document.getElementById("datos-lista");
+          
+                // Itera sobre las propiedades del JSON y crea elementos LI para cada propiedad
+                for (var key in jsonData) {
+                  if (jsonData.hasOwnProperty(key)) {
+                    var li = document.createElement("li");
+                    li.appendChild(document.createTextNode(key + ": " + jsonData[key]));
+                    lista.appendChild(li);
+                  }
+                }
+              })
+              .catch(error => console.error('Error al obtener el JSON desde el backend:', error));
+          </script>
+
     </body>
+
+
 
 </html>

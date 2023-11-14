@@ -9,7 +9,7 @@ const APIKEY = process.env.OPEN_AI_API_KEY;
 
 
 const openai = new OpenAI({
-    apiKey: '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',
+    apiKey: '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',
   });
 
   //generar imagen
@@ -24,13 +24,10 @@ const generateImage = async (req, res) => {
             n: 1,
             size: imageSize == 'Pequeña' ? '256x256' : imageSize == 'mediana' ? '512x512' : '1024x1024',
         });
-        let imageUrl;
+      let imageUrl;
         
     console.log(response);
-
         
-    res.send("<pre>"+JSON.stringify(response)+"</pre>")
-
         res.status(200).json({
             success: true,
             data: imageUrl
