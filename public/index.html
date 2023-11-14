@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>IA generador</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+        <div id="form-div">
+            <h1>Generador de imagenes</h1>
+            <form id="input-form">
+                <input class="search-input" type="text" placeholder="Ejemplo: ciberpunk apple" id="text">
+                <div class="buttons">
+                    <select class="btn" id="size">
+                        <option value="small">Pequeña</option>
+                        <option selected value="medium">Mediana</option>
+                        <option value="large">Grande</option>
+                    </select>
+                    <button class="btn" type="submit">Crear</button>
+                    <div id="lds-ring"><div></div><div></div><div></div><div></div></div>
+                </div>
+            </form>
+            <div id="image">
+                <h1>Imagen Generada</h1>
+                <img src="" id="generatedImage"></img>
+            </div>
+            <div id="warning">
+                <h2>No se pudo generar imagen</h2>
+            </div>
+        </div>
+    </body>
+
+</html>
