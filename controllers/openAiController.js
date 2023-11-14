@@ -9,7 +9,7 @@ const APIKEY = process.env.OPEN_AI_API_KEY;
 
 
 const openai = new OpenAI({
-    apiKey: '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',
+    apiKey: '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',
   });
 
   //generar imagen
@@ -28,21 +28,8 @@ const generateImage = async (req, res) => {
         
     console.log(response);
 
-
-
-
-if (response && response.data && response.data.data && response.data.data[0]) {
-  imageUrl = response.data[0].url;
-} else {
-  // Manejar el caso en que la propiedad no está definida
-  console.error('Error: No se pudo obtener la URL de la imagen.');
-  res.status(500).json({
-    success: false,
-    data: 'Error interno al procesar la respuesta de OpenAI.'
-  });
-  return;
-}
-
+        
+    res.send("<pre>"+JSON.stringify(response)+"</pre>")
 
         res.status(200).json({
             success: true,

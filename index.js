@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/openai', router);
 
 app.listen(PORT, () => {
-    console.log('Listening')
+    console.log('Servidor corriendo en puerto 5000 ')
 });
 
 

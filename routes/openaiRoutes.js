@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.post("/generate",generateImage);
 
-router.post("/chat", );
+
 
 
 
