@@ -10,7 +10,7 @@ app.get('/chat', function(req,res){
     res.set({
         'Access-control-Allow-Origin': '*'
     });
-    return res.redirect('/public/signup.html');
+    return res.redirect('/public/chatGen.html');
 });
 
 router.post("/generate",generateImage);
