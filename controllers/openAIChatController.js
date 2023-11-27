@@ -1,10 +1,19 @@
-const { response, request} = require("express");
-const { Configuration, OpenAIApi } = require("openai");
+import OpenAI  from "openai";
+import dotenv from 'dotenv';
+import path from 'path';
 
-const configuration = new Configuration({
-    apiKey: process.env.API_KEY
-});
-const openai = new OpenAIApi(configuration);
+
+const __dirname = path.resolve();
+dotenv.config({ path: __dirname + '/.env' });
+
+const APIKEY = process.env.OPEN_AI_API_KEY;
+
+
+const openai = new OpenAI({
+    apiKey: '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',
+  });
+
+//Generar chat
 
 const callChatGpt = async(req = request, res = response)=>{
 
@@ -32,6 +41,4 @@ const callChatGpt = async(req = request, res = response)=>{
 
 }
 
-module.exports = {
-    callChatGpt,
-}
+export default callChatGpt
