@@ -32,26 +32,6 @@ const callChatGpt = async(req = request, res = response)=>{
 
 }
 
-const callImageGpt = async(req = request, res = response)=>{
-    try {
-        const {prompt, nImage, size} = req.body;
-        
-        let queryObj = {
-            "prompt": prompt,
-            "n": nImage,
-            "size": size
-          }
-
-        const response = await openai.createImage(queryObj);
-        const dataImg = response.data;
-        res.json(dataImg);
-
-    } catch (error) {
-        console.log("error "+JSON.stringify(error));
-    }
-}
-
 module.exports = {
     callChatGpt,
-    callImageGpt
 }

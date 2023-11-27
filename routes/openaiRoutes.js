@@ -1,5 +1,6 @@
 import express from 'express';
 import generateImage from '../controllers/openAiController.js';
+import callChatGpt from '../controllers/openAIChatController.js';
 var app= express();
 
 
@@ -13,7 +14,7 @@ app.get('/chat', function(req,res){
 });
 
 router.post("/generate",generateImage);
-
+router.post('/chat',callChatGpt);
 
 //router.post("/generateChat", generateChat);
 
