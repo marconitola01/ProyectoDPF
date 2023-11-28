@@ -32,18 +32,19 @@ Diagrama 1
   ![Imagen](/imagesreadme/Captura.PNG)
 
 Diagrama 2 
+
   ![Imagen](/imagesreadme//Captura2.PNG)
 
 <br>
 
-### _REQ-001- Realizar interfaz de registro y login para usuarios _ 
+### _REQ-001- Realizar interfaz de registro y login para usuarios_ 
 
 Se requiere desarrollar un login para que los usuarios puedan ingresar a la aplicación y revisar las imágenes que han modificado y guardado. Adicionalmente si el usuario no se encuentra registrado, crear una pantalla en la cual se puedan registrar para poder utilizar las funcionalidades del aplicativo  
    
    Diagrama de flujo de proceso:
    
   ![Imagen](/imagesreadme//Captura3.PNG)
-    Ilustración - Interfaz de login y registro. 
+  Ilustración - Interfaz de login y registro. 
 
 
   Casos de uso:
@@ -61,14 +62,14 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
 ||Valida credenciales de registro del usuario  |
 ||Si el usuario no se encuentra registrado, el sistema no permite su ingreso. |
 
-### _REQ-002- Realizar interfaz Para generar imagenes _ 
+### _REQ-002- Realizar interfaz Para generar imagenes_ 
 
 Se requiere desarrollar una interfaz de usuario mediante la cual el usuario va a interactuar con la aplicación para generar imagenes  
 
    Diagrama de flujo de proceso:
    
   ![Imagen](/imagesreadme//Captura4.PNG)
-    Ilustración - Interfaz para generar imagenes. 
+  Ilustración - Interfaz para generar imagenes. 
 
 
   Casos de uso:
@@ -84,3 +85,31 @@ Se requiere desarrollar una interfaz de usuario mediante la cual el usuario va a
 | |Genera la imagen |
 ||Muestra resultado al usuario  |
 |Si está de acuerdo con el resultado la Descarga, sino puede generar una nueva |  |
+
+
+### _REQ-003- Realizar Un chatbot Para que ayude al usuario_ 
+
+Se requiere desarrollar un apartado en el cual el usuario va a contar con la ayuda de un chatbot para poder utilizar el generador  
+
+   Diagrama de flujo de proceso:
+   
+  ![Imagen](/imagesreadme//Captura5.PNG)
+  Ilustración - Chat de ayuda. 
+
+
+  Casos de uso:
+
+| Identificado   | CU-003   |
+|-----|-----|
+| Nombre  | chat de ayuda al usuario. |
+|Descripción |Se describe a continuación el proceso que realiza el chat de ayuda. |
+|Actores |Desarrollador |
+|Secuencia Normal|
+|Actor |Software |
+|Despliega el chat  ||
+| |El Chat saluda al usuario |
+|El usuario ingresa error que desee solucionar|  |
+| | El sistema analiza el error   |
+| | Busca en la base de datos|
+| | Devuelve una solución|
+|Visualiza la solucion| |
