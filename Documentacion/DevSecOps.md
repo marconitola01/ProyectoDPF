@@ -49,21 +49,12 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
 | Identificado   | CU-001  |
 |-----|-----|
 | Nombre  | Registro y login para el usuario. |
-|-----|-----|
 |Descripción |Se describe a continuación el proceso que realiza el interfaz de modificación de imágenes. |
-|-----|-----|
 |Actores |Desarrollador |
-|----- -----|
 |Secuencia Normal|
-|-----|-----|
 |Actor |Software |
-|-----|-----|
 |Ingresa al aplicativo ||
-|-----|-----|
 |Ingresa al login o al registro de usuario |Valida si el usuario se encuentra registrado |
-|-----|-----|
 ||Invita al usuario a registrarse en caso de que no lo esté. |
-|-----|-----|
 ||Valida credenciales de registro del usuario  |
-|-----|-----|
 ||Si el usuario no se encuentra registrado, el sistema no permite su ingreso. |
