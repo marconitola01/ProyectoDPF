@@ -25,11 +25,11 @@ Palabras clave: nodejs, azure, backend, MySql, microservicios
 ### _Despliegues:_ 
 
 A continuación, una propuesta del despliegue de microservicios para la puesta a producción y desarrollo. 
-<img src="/imagesreadme//captura.png" alt="gitclone command" width="500"/>
+<img src="/imagesreadme//Captura.png" alt="gitclone command" width="500"/>
 Diagrama 1
 
   
-  ![Imagen](/imagesreadme//captura.png)
+  ![Imagen](/imagesreadme//Captura.png)
 
 Diagrama 2 
   ![Imagen](/imagesreadme//Captura2.png)
