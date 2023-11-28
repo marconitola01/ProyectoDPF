@@ -57,5 +57,15 @@ npm start
 
 
 
+##Docker
 
+Construir imagen Docker desde repositorio de github
+~~~
+docker buildx build https://github.com/marconitola01/ProyectoDPF.git --tag nodeproyect:latest
+~~~
+
+correr app desde imagen Docker "nodeproyect"
+~~~
+docker run nodeproyect
+~~~
 
