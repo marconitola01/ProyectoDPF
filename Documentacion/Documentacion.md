@@ -43,8 +43,8 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
    
    Diagrama de flujo de proceso:
    
-  ![Imagen](/imagesreadme//Captura3.PNG)
-  Ilustración - Interfaz de login y registro. 
+   ![Imagen](/imagesreadme//Captura3.PNG)
+   Ilustración - Interfaz de login y registro. 
 
 
   Casos de uso:
@@ -68,8 +68,8 @@ Se requiere desarrollar una interfaz de usuario mediante la cual el usuario va a
 
    Diagrama de flujo de proceso:
    
-  ![Imagen](/imagesreadme//Captura4.PNG)
-  Ilustración - Interfaz para generar imagenes. 
+   ![Imagen](/imagesreadme//Captura4.PNG)
+   Ilustración - Interfaz para generar imagenes. 
 
 
   Casos de uso:
