@@ -25,14 +25,14 @@ Palabras clave: nodejs, azure, backend, MySql, microservicios
 ### _Despliegues:_ 
 
 A continuación, una propuesta del despliegue de microservicios para la puesta a producción y desarrollo. 
-<img src="/imagesreadme/Captura.PNG" alt="gitclone command" width="500"/>
+
 Diagrama 1
 
   
   ![Imagen](/imagesreadme/Captura.PNG)
 
 Diagrama 2 
-  ![Imagen](/imagesreadme//Captura2.png)
+  ![Imagen](/imagesreadme//Captura2.PNG)
 
 <br>
 
@@ -42,7 +42,7 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
    
    Diagrama de flujo de proceso:
    
-  ![Imagen](/imagesreadme//captura3.png)
+  ![Imagen](/imagesreadme//Captura3.PNG)
     Ilustración - Interfaz de login y registro. 
 
 
@@ -60,3 +60,27 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
 ||Invita al usuario a registrarse en caso de que no lo esté. |
 ||Valida credenciales de registro del usuario  |
 ||Si el usuario no se encuentra registrado, el sistema no permite su ingreso. |
+
+### _REQ-002- Realizar interfaz Para generar imagenes _ 
+
+Se requiere desarrollar una interfaz de usuario mediante la cual el usuario va a interactuar con la aplicación para generar imagenes  
+
+   Diagrama de flujo de proceso:
+   
+  ![Imagen](/imagesreadme//Captura4.PNG)
+    Ilustración - Interfaz para generar imagenes. 
+
+
+  Casos de uso:
+
+| Identificado   | CU-002   |
+|-----|-----|
+| Nombre  | Interfaz para generar imagenes. |
+|Descripción |Se describe a continuación el proceso que realiza el interfaz de Generación de imágenes. |
+|Actores |Desarrollador |
+|Secuencia Normal|
+|Actor |Software |
+|Se describe imagen para generar  ||
+| |Genera la imagen |
+||Muestra resultado al usuario  |
+|Si está de acuerdo con el resultado la Descarga, sino puede generar una nueva |  |
