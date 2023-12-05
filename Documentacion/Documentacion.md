@@ -43,8 +43,8 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
    
    Diagrama de flujo de proceso:
    
-   ![Imagen](/imagesreadme//Captura3.PNG)
-   Ilustración - Interfaz de login y registro. 
+  ![Imagen](/imagesreadme//Captura3.PNG)
+  Ilustración - Interfaz de login y registro. 
 
 
   Casos de uso:
@@ -53,7 +53,7 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
 |-----|-----|
 | Nombre  | Registro y login para el usuario. |
 |Descripción |Se describe a continuación el proceso que realiza el interfaz de modificación de imágenes. |
-|Actores |Desarrollador |
+|Actores |Usuario |
 |Secuencia Normal|
 |Actor |Software |
 |Ingresa al aplicativo ||
@@ -62,23 +62,47 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
 ||Valida credenciales de registro del usuario  |
 ||Si el usuario no se encuentra registrado, el sistema no permite su ingreso. |
 
-### _REQ-002- Realizar interfaz Para generar imagenes_ 
+### _REQ-002- Realizar una base de datos para guardar los usuarios que utilicen la aplicación_ 
+
+Se requiere desarrollar una base de datos que cuente con persistencia para guardar los usuarios y las imagenes que genera cada uno de estos.  
+   
+   Diagrama de flujo de proceso:
+   
+  ![Imagen](/imagesreadme//Captura6.PNG)
+  Ilustración - Interfaz de login y registro. 
+
+
+  Casos de uso:
+
+| Identificado   | CU-002  |
+|-----|-----|
+| Nombre  | Bases de datos. |
+|Descripción |Se describe a continuación el proceso que realiza la base de datos. |
+|Actores |Base de datos |
+|Secuencia Normal|
+|Actor |Software |
+|Guarda registro de usuario ||
+|Verificar iformacion cuando el usuario ingresa| |
+|Verifica si el usuario ya esta creado | |
+
+
+### _REQ-003- Realizar interfaz Para generar imagenes_ 
 
 Se requiere desarrollar una interfaz de usuario mediante la cual el usuario va a interactuar con la aplicación para generar imagenes  
 
    Diagrama de flujo de proceso:
    
-   ![Imagen](/imagesreadme//Captura4.PNG)
-   Ilustración - Interfaz para generar imagenes. 
+  ![Imagen](/imagesreadme//Captura4.PNG)
+  Ilustración - Interfaz para generar imagenes. 
 
 
   Casos de uso:
 
-| Identificado   | CU-002   |
+| Identificado   | CU-003   |
 |-----|-----|
 | Nombre  | Interfaz para generar imagenes. |
 |Descripción |Se describe a continuación el proceso que realiza el interfaz de Generación de imágenes. |
-|Actores |Desarrollador |
+|Actores |Usuario |
 |Secuencia Normal|
 |Actor |Software |
 |Se describe imagen para generar  ||
@@ -87,7 +111,7 @@ Se requiere desarrollar una interfaz de usuario mediante la cual el usuario va a
 |Si está de acuerdo con el resultado la Descarga, sino puede generar una nueva |  |
 
 
-### _REQ-003- Realizar Un chatbot Para que ayude al usuario_ 
+### _REQ-004- Realizar Un chatbot Para que ayude al usuario_ 
 
 Se requiere desarrollar un apartado en el cual el usuario va a contar con la ayuda de un chatbot para poder utilizar el generador  
 
@@ -99,11 +123,11 @@ Se requiere desarrollar un apartado en el cual el usuario va a contar con la ayu
 
   Casos de uso:
 
-| Identificado   | CU-003   |
+| Identificado   | CU-004   |
 |-----|-----|
 | Nombre  | chat de ayuda al usuario. |
 |Descripción |Se describe a continuación el proceso que realiza el chat de ayuda. |
-|Actores |Desarrollador |
+|Actores |Usuario |
 |Secuencia Normal|
 |Actor |Software |
 |Despliega el chat  ||
@@ -113,3 +137,4 @@ Se requiere desarrollar un apartado en el cual el usuario va a contar con la ayu
 | | Busca en la base de datos|
 | | Devuelve una solución|
 |Visualiza la solucion| |
+
