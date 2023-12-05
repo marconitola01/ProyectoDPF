@@ -56,7 +56,7 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
 |Descripción |Se describe a continuación el proceso que realiza el interfaz de modificación de imágenes. |
 |Actores |Usuario |
 |Secuencia Normal|
-|Actor |Software |
+|Usuario |Software |
 |Ingresa al aplicativo ||
 |Ingresa al login o al registro de usuario |Valida si el usuario se encuentra registrado |
 ||Invita al usuario a registrarse en caso de que no lo esté. |
@@ -82,7 +82,7 @@ Se requiere desarrollar una base de datos que cuente con persistencia para guard
 |Descripción |Se describe a continuación el proceso que realiza la base de datos. |
 |Actores |Base de datos |
 |Secuencia Normal|
-|Actor |Software |
+|Base de datos |Software |
 |Guarda registro de usuario ||
 |Verificar iformacion cuando el usuario ingresa| |
 |Verifica si el usuario ya esta creado | |
@@ -107,7 +107,7 @@ Se requiere desarrollar una interfaz de usuario mediante la cual el usuario va a
 |Descripción |Se describe a continuación el proceso que realiza el interfaz de Generación de imágenes. |
 |Actores |Usuario |
 |Secuencia Normal|
-|Actor |Software |
+|Usuario |Software |
 |Se describe imagen para generar  ||
 | |Genera la imagen |
 ||Muestra resultado al usuario  |
@@ -133,7 +133,7 @@ Se requiere desarrollar un apartado en el cual el usuario va a contar con la ayu
 |Descripción |Se describe a continuación el proceso que realiza el chat de ayuda. |
 |Actores |Usuario |
 |Secuencia Normal|
-|Actor |Software |
+|Usuario |Software |
 |Despliega el chat  ||
 | |El Chat saluda al usuario |
 |El usuario ingresa error que desee solucionar|  |
