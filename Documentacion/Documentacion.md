@@ -44,6 +44,7 @@ Se requiere desarrollar un login para que los usuarios puedan ingresar a la apli
    Diagrama de flujo de proceso:
    
   ![Imagen](/imagesreadme//Captura3.PNG)
+  
   Ilustración - Interfaz de login y registro. 
 
 
@@ -69,6 +70,7 @@ Se requiere desarrollar una base de datos que cuente con persistencia para guard
    Diagrama de flujo de proceso:
    
   ![Imagen](/imagesreadme//Captura6.PNG)
+  
   Ilustración - Interfaz de login y registro. 
 
 
@@ -93,6 +95,7 @@ Se requiere desarrollar una interfaz de usuario mediante la cual el usuario va a
    Diagrama de flujo de proceso:
    
   ![Imagen](/imagesreadme//Captura4.PNG)
+  
   Ilustración - Interfaz para generar imagenes. 
 
 
@@ -118,6 +121,7 @@ Se requiere desarrollar un apartado en el cual el usuario va a contar con la ayu
    Diagrama de flujo de proceso:
    
   ![Imagen](/imagesreadme//Captura5.PNG)
+  
   Ilustración - Chat de ayuda. 
 
 
