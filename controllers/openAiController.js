@@ -9,7 +9,7 @@ const APIKEY = process.env.OPEN_AI_API_KEY;
 
 
 const openai = new OpenAI({
-    apiKey: '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',
+    apiKey: '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',
   });
 
   //generar imagen
