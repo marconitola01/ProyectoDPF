@@ -10,7 +10,7 @@ const APIKEY = process.env.OPEN_AI_API_KEY;
 
 
 const openai = new OpenAI({
-    apiKey: 'sk-hASRdcCX0cDHWR9mnVqsT3BlbkFJfQICOJPBrZmf1TiEbibcA',
+    apiKey: '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',
   });
 
 //Generar chat
