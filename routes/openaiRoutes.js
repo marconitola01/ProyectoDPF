@@ -15,7 +15,7 @@ app.get('/chat', function(req,res){
 
 router.post("/generate",generateImage);
 router.post('/chat',callChatGpt);
-
+//
 //router.post("/generateChat", generateChat);
 
 
